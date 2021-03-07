@@ -1,0 +1,7 @@
+version: '2'
+services:
+  app:
+    restart: "always"
+    build: .
+    ports:
+      - 80:80/tcp
